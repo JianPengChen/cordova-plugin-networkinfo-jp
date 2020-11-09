@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova.plugin-networkinfo" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>NetworkInfo</name>
+	<js-module name="NetworkInfo" src="www/NetworkInfo.js">
+		<clobbers target="cordova.plugins.NetworkInfo" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="NetworkInfo">
+				<param name="ios-package" value="NetworkInfo" />
+			</feature>
+		</config-file>
+		<framework src="SystemConfiguration.framework" />
+        <framework src="CoreLocation.framework" />
+		<source-file src="src/ios/NetworkInfo.m" />
+		<source-file src="src/ios/AFNetworkReachabilityManager.h" />
+    	<source-file src="src/ios/AFNetworkReachabilityManager.m" />
+    	<source-file src="src/ios/route.h" />
+    	<source-file src="src/ios/getgateway.h" />
+    	<source-file src="src/ios/getgateway.c" />
+	</platform>
+</plugin>

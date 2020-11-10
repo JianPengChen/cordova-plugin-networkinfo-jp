@@ -1,5 +1,5 @@
 {
-  "name": "networkinfo",
+  "name": "plugin.networkinfo",
   "version": "1.0.0",
   "description": "cordova.plugin.networkinfo - 1.0.0<!-- omit in toc -->",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yiwanmo",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JianPengChen/cordova-plugin-networkinfo-jp.git"

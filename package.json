@@ -1,11 +1,19 @@
 {
   "name": "networkinfo",
   "version": "1.0.0",
-  "description": "",
+  "description": "cordova.plugin.networkinfo - 1.0.0<!-- omit in toc -->",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yiwanmo",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JianPengChen/cordova-plugin-networkinfo-jp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JianPengChen/cordova-plugin-networkinfo-jp/issues"
+  },
+  "homepage": "https://github.com/JianPengChen/cordova-plugin-networkinfo-jp#readme"
 }
